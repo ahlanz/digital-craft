@@ -66,7 +66,7 @@
                                         <div class="input-group mb-4">
                                             <input type="text" placeholder="Search ..." value="<?= (isset($_GET['search'])) ? $_GET['search'] : '' ?>" class="form-control" name="search">
                                             <span class="input-group-append">
-                                                <button class="btn btn-primary"> <i class="las la-search"></i></button>
+                                                <button class="btn btn-costum text-white"> <i class="las la-search"></i></button>
                                             </span>
                                         </div>
                                         <hr>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-md-7 col-lg-9">
                         <div class="row mb-3">
-                            <div class="col-12 p-2 border border-5 border-warning rounded">
+                            <div class="col-12 p-2 border border-5 border-dark rounded">
                                 <span class="p-1"><b>Rekomendasi Produk</b></span>
                                 <div class="row">
                                     <?php

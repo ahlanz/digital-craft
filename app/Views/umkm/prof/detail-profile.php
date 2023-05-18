@@ -266,7 +266,7 @@
                                                     <div class="py-1">
                                                         <div class="row">
                                                             <div>
-                                                                <button type="button" class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#addLink">
+                                                                <button type="button" class="btn btn-sm text-white" style="background-color: #5c164e;" data-bs-toggle="modal" data-bs-target="#addLink">
                                                                     Tambah Link <span class="fa fa-plus"></span>
                                                                 </button>
                                                             </div>
@@ -345,7 +345,7 @@
                                                 </span>
                                                 <div class="row justify-content-end">
                                                     <div class="col-sm-9">
-                                                        <div><button type="submit" class="btn btn-primary w-md">Submit</button></div>
+                                                        <div><button type="submit" class="btn text-white w-md" style="background-color: #5c164e;">Submit</button></div>
                                                     </div>
                                                 </div>
                                             </form>
@@ -386,7 +386,7 @@
 
                                                 <div class="row justify-content-end">
                                                     <div class="col-sm-9">
-                                                        <div><button type="submit" class="btn btn-primary w-md">Submit</button></div>
+                                                        <div><button type="submit" class="btn text-white w-md" style="background-color: #5c164e;">Submit</button></div>
                                                     </div>
                                                 </div>
                                             </form>
@@ -456,8 +456,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button>
-                <button type="submit" form="konfirAdd" class="btn btn-primary">Simpan</button>
+                <button type="button" class="btn text-white waves-effect" style="background-color: red;" data-bs-dismiss="modal">Tutup</button>
+                <button type="submit" form="konfirAdd" class="btn text-white" style="background-color: #5c164e;">Simpan</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

@@ -15,6 +15,7 @@ if ($hitung_link > 0) {
 <head>
 
     <?= $title_meta ?>
+    <?= $this->include('homepage_partial/head-css') ?>
 
     <!-- DataTables -->
     <link href="<?= base_url() ?>/assets/minia/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
@@ -129,7 +130,7 @@ if ($hitung_link > 0) {
                                     <div class="col-sm-auto order-1 order-sm-2">
                                         <div class="d-flex align-items-start justify-content-end gap-2">
                                             <div>
-                                                <a href="<?= base_url() ?>/umkm/produk/edit/<?= $l_detail->idproduk ?>" class="btn btn-soft-info"><i class="fa fa-edit"></i> Ubah Info Produk</a>
+                                                <a href="<?= base_url() ?>/umkm/produk/edit/<?= $l_detail->idproduk ?>" class="btn text-white" style="background-color: #5c164e;"><i class="fa fa-edit"></i> Ubah Info Produk</a>
                                             </div>
                                             <div>
                                                 <button type="button" class="btn btn-soft-danger" data-bs-toggle="modal" data-bs-target="#delProduk"><i class="fa fa-trash"></i> Hapus</button>
@@ -232,7 +233,7 @@ if ($hitung_link > 0) {
                                                     <?php }
                                                     } ?>
                                                     <li class="py-1">
-                                                        <button type="button" class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#addLink">
+                                                        <button type="button" class="btn btn-sm text-white" style="background-color:  #5c164e;" data-bs-toggle="modal" data-bs-target="#addLink">
                                                             Tambah Link <span class="fa fa-plus"></span>
                                                         </button>
                                                     </li>
@@ -245,9 +246,9 @@ if ($hitung_link > 0) {
                                     <div class="py-1">
                                         <div class="row">
                                             <div class="col-xl-3">
-                                                <div>
+                                                <!-- <div>
                                                     <h5 class="font-size-15">Produk ini Diiklankan :</h5>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-xl">
                                                 <div class="text-muted">
@@ -260,9 +261,9 @@ if ($hitung_link > 0) {
                                     <div class="py-1">
                                         <div class="row">
                                             <div class="col-xl-3">
-                                                <div>
+                                                <!-- <div>
                                                     <h5 class="font-size-15">Iklan ini Berakhir :</h5>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-xl">
                                                 <div class="text-muted">
@@ -280,14 +281,14 @@ if ($hitung_link > 0) {
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-sm order-2 order-sm-1">
-                                        <h4 class="card-title">Status Iklan & Promote</h4>
+                                        <!-- <h4 class="card-title">Status Iklan & Promote</h4> -->
                                     </div>
                                     <div class="col-sm-auto order-1 order-sm-2">
                                         <div class="d-flex align-items-start justify-content-end gap-2">
                                             <div>
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#setAds" class="btn btn-soft-success">
+                                                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#setAds" class="btn btn-soft-success">
                                                     Iklankan Produk Ini!
-                                                </a>
+                                                </a> -->
                                             </div>
                                         </div>
                                     </div>
@@ -386,8 +387,8 @@ if ($hitung_link > 0) {
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">Iklan Produk</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- <h5 class="modal-title" id="myModalLabel">Iklan Produk</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
             </div>
             <div class="modal-body">
                 <form id="konfirAdd" action="<?= base_url() ?>/umkm/produk/use_ads/" method="post">

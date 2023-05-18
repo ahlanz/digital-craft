@@ -19,12 +19,12 @@
     <main role="main">
 
         <div class="warpper">
-            <div class="container">
-                <div class="intro-2 poition-relative">
+            <div class="container ">
+                <div class="intro-2 poition-relative bg-container">
                     <div class="row d-flex justify-content-between align-items-center">
                         <div class="col-md-8">
                             <h1 class="intro-title">
-                                Katalog UMKM
+                                Katalog UMKM <br/> Digital craft &  fashion
                             </h1>
                             <p class="lead">
                                 Daftar semua produk UMKM <br />
@@ -36,7 +36,7 @@
                                         <div class="input-group mb-3">
                                             <input type="text" placeholder="Search ..." class="form-control" name="search" aria-describedby="basic-addon2" />
                                             <div class="input-group-append">
-                                                <button class="btn btn-primary"> <i class="las la-search"></i></button>
+                                                <button class="btn-search btn"> <i class="las la-search text-white"></i></button>
                                             </div>
                                         </div>
                                     </form>
@@ -44,6 +44,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-none d-sm-block">
+                            <!-- NOTED : Diganti nunggu assets -->
                             <img class="card-img-top opacity-8" src="<?= base_url() ?>/assets/marketspot/assets/img/theme-illustration.png" alt="image" />
                         </div>
                     </div>
@@ -157,15 +158,15 @@
                 <?php }?>
             </div>
         </div>
-        <div class="bg-dark">
-            <section class="cta-big section">
+        <div class="bg-bawah text-dark">
+            <section class="cta-big section ">
                 <div class="container">
-                    <div class="cta-big-content bg-primary py-5 px-5 mt-4 rounded text-white position-relative">
+                    <div class="cta-big-content bg-penjelasan py-5 px-5 mt-4 rounded text-white position-relative">
                         <img alt="bg image" class="bg-image" src="<?= base_url() ?>/assets/marketspot/assets/img/bg-3.png">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="col-lg-8 col-md-7">
                                 <h3 class="h1">Jadilah bagian dari kami dan daftarkan produk-produk dari UMKM anda!</h3>
-                                <p class="subtitle">Sign-up today </p>
+                                <p class="subtitle text-dark">Sign-up today </p>
                             </div>
                             <div class="col-lg-3 offset-lg-1 col-md-5 align-self-center">
                                 <!-- <img src="<?= base_url() ?>/assets/marketspot/assets/img/illustrations/03.svg" alt="" class="img-fluid"> -->

@@ -45,7 +45,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item active">List Kategori</li>
                                 </ol>
                             </div>
@@ -64,7 +64,7 @@
                             <div class="card-body">
                                 <?=session()->getFlashdata('notif');?>
                                 <div style="margin-bottom: 15px">
-                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#addKategori">
+                                    <button type="button" class="btn text-white" style="background-color:  #5c164e;" data-bs-toggle="modal" data-bs-target="#addKategori">
                                         Tambah Kategori
                                     </button>
                                 </div>
@@ -106,12 +106,12 @@
                                             <td>
                                                 <div class="d-grid gap-2">
                                                     <div class="btn-group">
-                                                        <a class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#editConfirm" data-id="<?=$a->idkategori?>">Edit</a>
+                                                        <a class="btn text-white btn-sm" style="background-color: #5c164e;" data-bs-toggle="modal" data-bs-target="#editConfirm" data-id="<?=$a->idkategori?>">Edit</a>
                                                         <?php if($hitung == 0){?>
-                                                        <a class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delConfirm" data-id="<?=$a->idkategori?>">Hapus</a>
+                                                        <a class="btn text-white btn-sm" style="background-color: red;" data-bs-toggle="modal" data-bs-target="#delConfirm" data-id="<?=$a->idkategori?>">Hapus</a>
                                                         <?php }?>
                                                         <?php if($a->category_status == 'on'){?>
-                                                        <a class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#switchConfirm" data-id="<?=$a->idkategori?>">
+                                                        <a class="btn text-white btn-sm" style="background-color: grey;" data-bs-toggle="modal" data-bs-target="#switchConfirm" data-id="<?=$a->idkategori?>">
                                                             Nonaktifkan
                                                         </a>
                                                         <?php }else{?>
@@ -168,8 +168,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button>
-                <button type="submit" form="konfirAdd" class="btn btn-primary">Simpan</button>
+                <button type="button" class="btn text-white waves-effect" style="background-color: red;" data-bs-dismiss="modal">Tutup</button>
+                <button type="submit" form="konfirAdd" class="btn text-white" style="background-color: #5c164e;">Simpan</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

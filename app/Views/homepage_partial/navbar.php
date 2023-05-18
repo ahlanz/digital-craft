@@ -1,4 +1,4 @@
-    <header class="nav-wrap bg-dark fixed-top">
+    <header class="nav-wrap fixed-top bg-navbar">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark px-lg-0">
                 <a class="navbar-brand mr-3 swap-link" href="<?= base_url() ?>">Pojok<span class="text-light font-weight-bold">UMKM</span></a>
@@ -35,7 +35,7 @@
                         <?php } ?>
                         <li class="nav-item d-flex align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary swap-link text-white" href="<?= base_url() ?>/register">Sign up</a>
+                            <a class="nav-link btn-costum swap-link text-white" href="<?= base_url() ?>/register">Sign up</a>
                         </li>
                         </li>
                     </ul>

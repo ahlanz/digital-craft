@@ -42,11 +42,11 @@
                             <h4 class="page-title mb-0 font-size-18"><?= $title ?></h4>
 
                             <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
+                                <!-- <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">PojokUMKM</a></li>
                                     <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/iklan/list">List Iklan</a></li>
                                     <li class="breadcrumb-item active">Detail Iklan</li>
-                                </ol>
+                                </ol> -->
                             </div>
 
                         </div>
@@ -67,13 +67,13 @@
                                     <div class="col-sm-auto order-1 order-sm-2">
                                         <div class="d-flex align-items-start justify-content-end gap-2">
                                             <div>
-                                                <a href="<?=base_url()?>/pengelola/iklan/edit/<?=$l_detail->idads?>" class="btn btn-soft-info"><i class="fa fa-edit"></i> Ubah Paket Iklan</a>
+                                                <!-- <a href="<?=base_url()?>/pengelola/iklan/edit/<?=$l_detail->idads?>" class="btn btn-soft-info"><i class="fa fa-edit"></i> Ubah Paket Iklan</a> -->
                                             </div>
                                             <div>
                                                 <?php if($l_detail->ads_status == 'on'){?>
-                                                    <button type="button" class="btn btn-soft-danger" data-bs-toggle="modal" data-bs-target="#switchIklan">Nonaktifkan</button>
+                                                    <!-- <button type="button" class="btn btn-soft-danger" data-bs-toggle="modal" data-bs-target="#switchIklan">Nonaktifkan</button> -->
                                                 <?php }else{?>
-                                                    <button type="button" class="btn btn-soft-success" data-bs-toggle="modal" data-bs-target="#switchIklan">Aktifkan</button>
+                                                    <!-- <button type="button" class="btn btn-soft-success" data-bs-toggle="modal" data-bs-target="#switchIklan">Aktifkan</button> -->
                                                 <?php }?>
                                             </div>
                                         </div>
@@ -178,18 +178,18 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">Tambah Link</h5>
+                <!-- <h5 class="modal-title" id="myModalLabel">Tambah Link</h5> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <!-- <div class="modal-body">
                 <?=($l_detail->ads_status == 'on')?'Nonaktifkan':'Aktifkan'?> Paket iklan ini?
-            </div>
+            </div> -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button>
+                <!-- <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button> -->
                 <?php if ($l_detail->ads_status == 'on') {?>
-                    <a href="<?=base_url()?>/pengelola/iklan/switch/<?=$l_detail->idads?>" class="btn btn-danger">Nonaktifkan</a>
+                    <!-- <a href="<?=base_url()?>/pengelola/iklan/switch/<?=$l_detail->idads?>" class="btn btn-danger">Nonaktifkan</a> -->
                 <?php }else{?>
-                    <a href="<?=base_url()?>/pengelola/iklan/switch/<?=$l_detail->idads?>" class="btn btn-success">Aktifkan</a>
+                    <!-- <a href="<?=base_url()?>/pengelola/iklan/switch/<?=$l_detail->idads?>" class="btn btn-success">Aktifkan</a> -->
                 <?php }?>
             </div>
         </div><!-- /.modal-content -->

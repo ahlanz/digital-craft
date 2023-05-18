@@ -39,10 +39,10 @@
                             <h4 class="page-title mb-0 font-size-18"><?= $title ?></h4>
 
                             <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
+                                <!-- <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/dashboard">PojokUMKM</a></li>
                                     <li class="breadcrumb-item active">List Voucher Iklan</li>
-                                </ol>
+                                </ol> -->
                             </div>
 
                         </div>
@@ -54,19 +54,19 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <p class="card-title-desc">List Voucher Iklan yang dimiliki</p>
+                                <!-- <p class="card-title-desc">List Voucher Iklan yang dimiliki</p> -->
                             </div>
                             <div class="card-body">
                                 <?= session()->getFlashdata('notif'); ?>
                                 <div style="margin-bottom: 15px">
-                                    <a href="<?= base_url() ?>/umkm/order/order" type="button" class="btn btn-info">
+                                    <!-- <a href="<?= base_url() ?>/umkm/order/order" type="button" class="btn btn-info">
                                         Pesan Voucher Iklan
-                                    </a>
+                                    </a> -->
                                 </div>
                                 <table class="table dtable table-striped table-bordered align-middle nowrap">
                                     <thead>
                                         <th>No.</th>
-                                        <th>Paket Iklan</th>
+                                        <!-- <th>Paket Iklan</th> -->
                                         <th>Durasi</th>
                                         <th>Jumlah Voucher</th>
                                         <th>Total Harga</th>

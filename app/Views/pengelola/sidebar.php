@@ -28,9 +28,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url() ?>/pengelola/pengelola/list" data-key="t-user-grid">
+                            <!-- <a href="<?= base_url() ?>/pengelola/pengelola/list" data-key="t-user-grid">
                                 <span data-key="t-authentication">Pengelola</span>
-                            </a>
+                            </a> -->
                         </li>
                         <li>
                             <a href="<?= base_url() ?>/pengelola/umkm/list" data-key="t-user-grid">
@@ -41,28 +41,28 @@
                 </li>
                 <li>
                     <a href="<?= base_url() ?>/pengelola/produk/list">
-                        <i data-feather="box"></i>
+                        <i data-feather="package"></i>
                         <span data-key="t-produk">Produk</span>
                     </a>
                 </li>
                 <li>
                     <a href="<?= base_url() ?>/pengelola/kategori/list">
-                        <i data-feather="tag"></i>
+                        <i data-feather="book"></i>
                         <span data-key="t-kategori">Kategori Produk</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="<?= base_url() ?>/pengelola/iklan/list">
                         <i data-feather="dollar-sign"></i>
                         <span data-key="t-kategori">Paket Iklan</span>
                     </a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="<?= base_url() ?>/pengelola/order/list">
                         <i data-feather=""></i>
                         <span data-key="t-kategori">Orderan</span>
                     </a>
-                </li>
+                </li> -->
                 <!--
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">

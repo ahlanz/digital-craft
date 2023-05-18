@@ -17,12 +17,12 @@
                 </li>
                 <li>
                     <a href="<?= base_url() ?>/umkm/produk/list">
-                        <i data-feather="box"></i>
+                        <i data-feather="package"></i>
                         <span data-key="t-produk">Produk</span>
                     </a>
                 </li>
 
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="users"></i>
                         <span data-key="t-authentication">Iklan</span>
@@ -39,7 +39,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </div>
         <!-- Sidebar -->

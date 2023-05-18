@@ -44,8 +44,8 @@
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/dashboard">PojokUMKM</a></li>
-                                    <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/iklan/list">List Order</a></li>
-                                    <li class="breadcrumb-item active">Order</li>
+                                    <!-- <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/iklan/list">List Order</a></li> -->
+                                    <!-- <li class="breadcrumb-item active">Order</li> -->
                                 </ol>
                             </div>
 
@@ -65,13 +65,13 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="mb-3">
-                                                <label for="choices-single-default" class="form-label">Voucher Iklan</label>
-                                                <select class="js-choices form-control" id="voucher" onchange="change()" name="adsid" placeholder="This is a search placeholder">
+                                                <!-- <label for="choices-single-default" class="form-label">Voucher Iklan</label> -->
+                                                <!-- <select class="js-choices form-control" id="voucher" onchange="change()" name="adsid" placeholder="This is a search placeholder">
                                                     <option value="">Pilih Voucher...</option>
                                                     <?php foreach ($l_voucher as $row) { ?>
                                                         <option value="<?= $row->idads; ?>" data-harga="<?= $row->ads_price; ?>"><?= $row->ads_name . '-' . $row->ads_price; ?></option>
                                                     <?php } ?>
-                                                </select>
+                                                </select> -->
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +116,8 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                                <a href="<?= base_url() ?>/umkm/iklan/list" class="btn btn-secondary">Kembali</a>
-                                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                                <!-- <a href="<?= base_url() ?>/umkm/iklan/list" class="btn btn-secondary">Kembali</a> -->
+                                                <!-- <button type="submit" class="btn btn-primary">Simpan</button> -->
                                             </div>
                                         </div>
                                     </div>

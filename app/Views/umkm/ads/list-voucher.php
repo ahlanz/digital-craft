@@ -41,7 +41,7 @@
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/dashboard">PojokUMKM</a></li>
-                                    <li class="breadcrumb-item active">List Voucher Iklan</li>
+                                    <!-- <li class="breadcrumb-item active">List Voucher Iklan</li> -->
                                 </ol>
                             </div>
 
@@ -54,14 +54,14 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <p class="card-title-desc">List Voucher Iklan yang dimiliki</p>
+                                <!-- <p class="card-title-desc">List Voucher Iklan yang dimiliki</p> -->
                             </div>
                             <div class="card-body">
                                 <?= session()->getFlashdata('notif'); ?>
                                 <table class="table dtable table-striped table-bordered align-middle nowrap">
                                     <thead>
                                         <th>No.</th>
-                                        <th>Paket Iklan</th>
+                                        <!-- <th>Paket Iklan</th> -->
                                         <th>Durasi</th>
                                         <th>Jumlah</th>
                                         <th>Aksi</th>
@@ -76,7 +76,7 @@
                                                 <td><?= $a->ads_amount ?></td>
                                                 <td>
                                                     <div class="d-grid gap-2">
-                                                        <a href="<?= base_url() ?>/umkm/iklan/detail/<?= $a->idads ?>" class="btn btn-outline-info">Detail</a>
+                                                        <!-- <a href="<?= base_url() ?>/umkm/iklan/detail/<?= $a->idads ?>" class="btn btn-outline-info">Detail</a> -->
                                                     </div>
                                                 </td>
                                             </tr>

@@ -46,10 +46,10 @@
                                         <input name="pass2" class="form-control" required placeholder="Repeat password" type="password">
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-primary btn-block"> Create Account </button>
+                                        <button type="submit" class="btn btn-costum text-white btn-block"> Create Account </button>
                                     </div>
                                     <p class="text-center">Have an account?
-                                        <a href="<?=base_url()?>/auth">Log In</a>
+                                        <a href="<?=base_url()?>/auth " class="txt-costum">Log In</a>
                                     </p>
                                 </form>
                             </div>
@@ -64,7 +64,7 @@
         <!-- end page -->
     </main>
     
-    <footer class="footer footer-alt text-center bg-dark text-white">
+    <footer class="footer footer-alt text-center bg-bawah text-white">
         <div class="container">
             2019 - 2020 © MarketSpot theme by <a href="" class="text-muted">Codenpixel</a>
         </div>

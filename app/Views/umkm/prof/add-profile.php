@@ -33,7 +33,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item active">Profil</li>
                                 </ol>
                             </div>
@@ -53,7 +53,7 @@
                                             <div class="flex-shrink-0">
                                                 <div class="avatar-xl me-3">
                                                     <?php if($detail_user->umkm_pic != 'image.jpg'){?>
-                                                    <img src="<?=base_url()?>/uploads/user/umkm/user<?=$detail_user->iduser?>/<?=$detail_user->umkm_pic?>" alt="" class="img-fluid rounded-circle d-block">
+                                                    <img src="<?=base_url()?>/uploads/user/umkm/user<?=$detail_user->iduser?>/<?=$detail_user->umkm_pic?>" alt="" class="img-fluid rounded-full d-block">
                                                     <?php }else{?>
                                                     <img src="<?=base_url()?>/uploads/user/umkm/image.jpg" alt="" class="img-fluid rounded-circle d-block">
                                                     <?php }?>

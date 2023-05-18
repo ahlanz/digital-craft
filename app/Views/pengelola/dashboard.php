@@ -33,7 +33,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item active">Dashboard</li>
                                 </ol>
                             </div>
@@ -49,7 +49,7 @@
                             <div class="col-lg-12">
                                 <div class="text-center mb-5">
                                     <h1 class="display-1 fw-semibold">WELCOME!</h1>
-                                    <h4 class="text-uppercase">Selamat datang di Panel User</h4>
+                                    <h4 class="text-uppercase">Selamat datang di Panel Admin</h4>
                                 </div>
                             </div>
                         </div>

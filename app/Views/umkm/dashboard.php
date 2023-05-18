@@ -33,7 +33,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?= base_url() ?>/umkm/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item active">Dashboard</li>
                                 </ol>
                             </div>
@@ -62,7 +62,7 @@
                                     </div> -->
                                 </div>
                                 <div class="text-nowrap">
-                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn text-white btn-sm" style="background-color: #5c164e;">View more <i class="mdi mdi-arrow-right ms-1" ></i></a>
                                     <!-- <span class="badge bg-soft-danger text-danger">-29 Trades</span> -->
                                     <!-- <span class="ms-1 text-muted font-size-13">Since last week</span> -->
                                 </div>
@@ -86,7 +86,7 @@
                                     </div> -->
                                 </div>
                                 <div class="text-nowrap">
-                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn text-white btn-sm" style="background-color: #5c164e;">View more <i class="mdi mdi-arrow-right ms-1"></i></a>
                                     <!-- <span class="badge bg-soft-danger text-danger">-29 Trades</span> -->
                                     <!-- <span class="ms-1 text-muted font-size-13">Since last week</span> -->
                                 </div>
@@ -96,52 +96,52 @@
 
                     <div class="col-xl-3 col-md-6">
                         <!-- card -->
-                        <div class="card card-h-100">
+                        <!-- <div class="card card-h-100"> -->
                             <!-- card body -->
-                            <div class="card-body">
+                            <!-- <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
                                         <span class="text-muted mb-3 lh-1 d-block text-truncate">Voucher Iklan</span>
                                         <h4 class="mb-3">
                                             <span class="counter-value" data-target="<?= $jml_voucher ?>">0</span>
                                         </h4>
-                                    </div>
+                                    </div> -->
                                     <!-- <div class="col-6">
                                         <div id="mini-chart3" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
                                     </div> -->
-                                </div>
+                                <!-- </div>
                                 <div class="text-nowrap">
-                                    <a href="<?= base_url() ?>/umkm/Iklan/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                    <a href="<?= base_url() ?>/umkm/Iklan/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a> -->
                                     <!-- <span class="badge bg-soft-danger text-danger">-29 Trades</span> -->
                                     <!-- <span class="ms-1 text-muted font-size-13">Since last week</span> -->
-                                </div>
-                            </div><!-- end card body -->
-                        </div><!-- end card -->
+                                <!-- </div> -->
+                            <!-- </div>end card body -->
+                        <!-- </div>end card -->
                     </div><!-- end col -->
 
                     <div class="col-xl-3 col-md-6">
                         <!-- card -->
-                        <div class="card card-h-100">
+                        <!-- <div class="card card-h-100"> -->
                             <!-- card body -->
-                            <div class="card-body">
+                            <!-- <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
                                         <span class="text-muted mb-3 lh-1 d-block text-truncate">Produk Diiklankan</span>
                                         <h4 class="mb-3">
                                             <span class="counter-value" data-target="<?= $jml_produk_ads ?>">0</span>
                                         </h4>
-                                    </div>
+                                    </div> -->
                                     <!-- <div class="col-6">
                                         <div id="mini-chart4" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
                                     </div> -->
-                                </div>
+                                <!-- </div>
                                 <div class="text-nowrap">
-                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                    <a href="<?= base_url() ?>/umkm/produk/list" class="btn btn-primary btn-sm">View more <i class="mdi mdi-arrow-right ms-1"></i></a> -->
                                     <!-- <span class="badge bg-soft-danger text-danger">-29 Trades</span> -->
                                     <!-- <span class="ms-1 text-muted font-size-13">Since last week</span> -->
-                                </div>
-                            </div><!-- end card body -->
-                        </div><!-- end card -->
+                                <!-- </div> -->
+                            <!-- </div>end card body -->
+                        <!-- </div>end card -->
                     </div><!-- end col -->
                 </div><!-- end row-->
                 <!-- start here dashboard -->
@@ -196,7 +196,7 @@
                                                 <h6><?= $detail_user->phone; ?></h6>
                                             </div>
                                             <div>
-                                                <a href="<?= base_url() ?>/umkm/produk/list" class="btn btn-primary btn-sm">View Produk<i class="mdi mdi-arrow-right ms-1"></i></a>
+                                                <a href="<?= base_url() ?>/umkm/produk/list" class="btn text-white btn-sm" style="background-color: #5c164e;">View Produk<i class="mdi mdi-arrow-right ms-1"></i></a>
                                             </div>
                                         </div>
                                     </div>

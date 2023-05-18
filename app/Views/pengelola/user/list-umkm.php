@@ -54,12 +54,12 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <p class="card-title-desc">UMKM yang terdaftar pada PojokUMKM</p>
+                                <p class="card-title-desc">UMKM yang terdaftar pada Katalog <br/> Digital craft &  fashion</p>
                             </div>
                             <div class="card-body">
                                 <?=session()->getFlashdata('notif');?>
                                 <div style="margin-bottom: 15px">
-                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addUserUmkm">
+                                    <button type="button" class="btn text-white" style="background-color: #5c164e;" data-bs-toggle="modal" data-bs-target="#addUserUmkm">
                                         Tambah UMKM
                                     </button>
                                 </div>
@@ -93,12 +93,12 @@
                                                 <div class="d-grid gap-2">
                                                     <div class="btn-group">
                                                         <?php if($a->iduser != session()->get('iduser')){?>
-                                                        <a href="<?=base_url()?>/pengelola/umkm/detail/<?=$a->iduser?>" class="btn btn-sm btn-outline-info">Detail</a> 
+                                                        <a href="<?=base_url()?>/pengelola/umkm/detail/<?=$a->iduser?>" class="btn btn-sm text-white" style="background-color: #5c164e;">Detail</a> 
                                                         <?php }else{ ?>
-                                                        <a href="<?=base_url()?>/pengelola/profile" class="btn btn-sm btn-outline-info">Detail</a> 
+                                                        <a href="<?=base_url()?>/pengelola/profile" class="btn btn-sm text-white" style="background-color: #5c164e;">Detail</a> 
                                                         <?php } ?>
                                                         <?php if($a->flag == 1){?>
-                                                        <a class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#switchConfirm" data-id="<?=$a->iduser?>">
+                                                        <a class="btn text-white btn-sm" style="background-color: red;" data-bs-toggle="modal" data-bs-target="#switchConfirm" data-id="<?=$a->iduser?>">
                                                             Nonaktifkan
                                                         </a>
                                                         <?php }else{?>
@@ -165,8 +165,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button>
-                <button type="submit" form="konfirAdd" class="btn btn-primary">Simpan</button>
+                <button type="button" class="btn text-white waves-effect" style="background-color: red;" data-bs-dismiss="modal">Tutup</button>
+                <button type="submit" form="konfirAdd" class="btn text-white" style="background-color: #5c164e;">Simpan</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

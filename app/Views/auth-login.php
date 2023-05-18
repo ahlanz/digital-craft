@@ -34,7 +34,7 @@
                                         <input class="form-control" type="password" required="" id="password" name="password" placeholder="Enter your password">
                                     </div>
                                     <div class="form-group mb-0 text-center">
-                                        <button class="btn btn-primary btn-block" type="submit"> Log In </button>
+                                        <button class="btn btn-costum text-white btn-block" type="submit"> Log In </button>
                                     </div>
                                 </form>
                             </div>
@@ -43,7 +43,7 @@
                         <!-- end card -->
                         <div class="row mt-3">
                             <div class="col-12 text-center">
-                                <p class="text-muted">Don't have an account? <a href="<?=base_url()?>/register" class="text-primary font-weight-medium ml-1">Sign Up</a></p>
+                                <p class="text-muted">Don't have an account? <a href="<?=base_url()?>/register" class="txt-costum font-weight-medium ml-1">Sign Up</a></p>
                             </div>
                             <!-- end col -->
                         </div>
@@ -57,7 +57,7 @@
         <!-- end page -->
     </main>
 
-    <footer class="footer footer-alt text-center bg-dark text-white">
+    <footer class="footer footer-alt text-center bg-bawah text-white">
         <div class="container">
             2019 - 2020 © MarketSpot theme by <a href="" class="text-muted">Codenpixel</a>
         </div>

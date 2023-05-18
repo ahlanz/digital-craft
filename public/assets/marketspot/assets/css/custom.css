@@ -1,2 +1,39 @@
-
 /*# sourceMappingURL=../../../scss */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-container {
+  background-color: rgba(233, 214, 146, 0.5);
+}
+
+.bg-navbar {
+  background-color: #b86f52;
+}
+
+.bg-penjelasan {
+  background-color: rgba(233, 214, 146, 1);
+}
+
+.bg-bawah {
+  background-color: #924f34;
+}
+
+.bg-footer {
+  background-color: #b86f52;
+}
+
+.btn-costum {
+  background-color: #5c164e;
+  border-radius: 5px;
+}
+
+.txt-costum {
+  color: #5c164e;
+}
+
+.btn-search {
+  background-color: #5c164e;
+}

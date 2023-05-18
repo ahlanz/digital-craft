@@ -40,7 +40,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item"><a href="<?=base_url()?>/umkm/produk/list">List Produk</a></li>
                                     <li class="breadcrumb-item active">Tambah Produk</li>
                                 </ol>
@@ -167,8 +167,8 @@
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                                <a href="<?=base_url()?>/umkm/produk/list" class="btn btn-secondary">Kembali</a>
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#konfirmasi" class="btn btn-primary">Simpan</a>
+                                                <a href="<?=base_url()?>/umkm/produk/list" class="btn text-white" style="background-color: red;">Kembali</a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#konfirmasi" class="btn text-white" style="background-color: #5c164e;">Simpan</a>
                                             </div>
                                         </div>
                                     </div>

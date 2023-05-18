@@ -41,7 +41,7 @@
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">PojokUMKM</a></li>
-                                    <li class="breadcrumb-item active">Tambah Paket Iklan</li>
+                                    <!-- <li class="breadcrumb-item active">Tambah Paket Iklan</li> -->
                                 </ol>
                             </div>
 
@@ -54,11 +54,11 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <p class="card-title-desc">Tambah Paket Iklan</p>
+                                <!-- <p class="card-title-desc">Tambah Paket Iklan</p> -->
                             </div>
                             <div class="card-body">
                                 <?=session()->getFlashdata('notif');?>
-                                <form id="addIklan" action="<?=base_url()?>/pengelola/iklan/add_proc" method="post" enctype="multipart/form-data">
+                                <!-- <form id="addIklan" action="<?=base_url()?>/pengelola/iklan/add_proc" method="post" enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="mb-3">
@@ -105,7 +105,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div> <!-- end col -->
@@ -130,12 +130,12 @@
                 <h5 class="modal-title" id="myModalLabel">Konfirmasi</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <!-- <div class="modal-body">
                 Tambah Iklan?
-            </div>
+            </div> -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button>
-                <button type="submit" form="addIklan" class="btn btn-primary">Tambah</button>
+                <!-- <button type="button" class="btn btn-secondary waves-effect" data-bs-dismiss="modal">Tutup</button> -->
+                <!-- <button type="submit" form="addIklan" class="btn btn-primary">Tambah</button> -->
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

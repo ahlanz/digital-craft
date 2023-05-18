@@ -40,7 +40,7 @@
 
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">PojokUMKM</a></li>
+                                    <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">Digital craft &  fashion</a></li>
                                     <li class="breadcrumb-item active">List Produk</li>
                                 </ol>
                             </div>
@@ -58,7 +58,7 @@
                             </div>
                             <div class="card-body">
                                 <div style="margin-bottom: 15px">
-                                    <a href="<?=base_url()?>/pengelola/produk/add" type="button" class="btn btn-info">
+                                    <a href="<?=base_url()?>/pengelola/produk/add" type="button" class="btn text-white" style="background-color: #5c164e;">
                                         Tambah Produk
                                     </a>
                                 </div>
@@ -89,7 +89,7 @@
                                             </td>
                                             <td>
                                                 <div class="d-grid gap-2">
-                                                    <a href="<?=base_url()?>/pengelola/produk/detail/<?=$a->idproduk?>" class="btn btn-outline-info btn-sm">Detail</a>
+                                                    <a href="<?=base_url()?>/pengelola/produk/detail/<?=$a->idproduk?>" class="btn text-white btn-sm" style="background-color: #5c164e;">Detail</a>
                                                 </div>
                                             </td>
                                         </tr>

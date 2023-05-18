@@ -41,7 +41,7 @@
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="<?=base_url()?>/pengelola/dashboard">PojokUMKM</a></li>
-                                    <li class="breadcrumb-item active">List Paket Iklan</li>
+                                    <!-- <li class="breadcrumb-item active">List Paket Iklan</li> -->
                                 </ol>
                             </div>
 
@@ -54,19 +54,19 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <p class="card-title-desc">List Paket Iklan yang terdaftar</p>
+                                <!-- <p class="card-title-desc">List Paket Iklan yang terdaftar</p> -->
                             </div>
                             <div class="card-body">
                                 <div style="margin-bottom: 15px">
-                                    <a href="<?=base_url()?>/pengelola/iklan/add" type="button" class="btn btn-info">
+                                    <!-- <a href="<?=base_url()?>/pengelola/iklan/add" type="button" class="btn btn-info">
                                         Tambah Paket Iklan
-                                    </a>
+                                    </a> -->
                                 </div>
                                 <?=session()->getFlashdata('notif');?>
                                 <table class="table dtable table-striped table-sm table-bordered align-middle nowrap">
                                     <thead>
                                         <th>No.</th>
-                                        <th>Paket Iklan</th>
+                                        <!-- <th>Paket Iklan</th> -->
                                         <th>Durasi</th>
                                         <th>Harga</th>
                                         <th>Status</th>
@@ -89,7 +89,7 @@
                                             </td>
                                             <td>
                                                 <div class="d-grid gap-2">
-                                                    <a href="<?=base_url()?>/pengelola/iklan/detail/<?=$a->idads?>" class="btn btn-outline-info btn-sm">Detail</a>
+                                                    <!-- <a href="<?=base_url()?>/pengelola/iklan/detail/<?=$a->idads?>" class="btn btn-outline-info btn-sm">Detail</a> -->
                                                 </div>
                                             </td>
                                         </tr>
